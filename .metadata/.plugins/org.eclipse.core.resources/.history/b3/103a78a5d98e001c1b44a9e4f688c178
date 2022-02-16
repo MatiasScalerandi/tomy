@@ -1,0 +1,56 @@
+package com.test.tomy.service;
+
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.test.tomy.dto.AutoDTO;
+import com.test.tomy.model.Auto;
+import com.test.tomy.repository.AutoRepository;
+import com.test.tomy.util.ModelMapperProductUtil;
+
+@Service
+public class AutoServiceImpl implements AutoService{
+
+	@Autowired
+	private AutoRepository autoDAO;
+	
+	@Override
+	public List<AutoDTO> obtenerAutos() {
+		List<Auto> listaAutoBD = autoDAO.findAll();
+		List<AutoDTO> listaAutoDTO = new ArrayList<>();
+		listaAutoBD.forEach(l -> {
+			try {
+				listaAutoDTO.add(ModelMapperProductUtil.convertToDTO(l));
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
+		});
+		return listaAutoDTO;
+	}
+
+	@Override
+	public Optional<AutoDTO> guardarAuto(Auto auto) throws ParseException {
+		Optional<AutoDTO> oa; 
+		AutoDTO autoDTO = ModelMapperProductUtil.convertToDTO(auto);
+		oa.get() = autoDTO;
+		return null;
+	}
+
+	@Override
+	public void borrarAuto(Long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<AutoDTO> ordenamiento(int ordenar) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

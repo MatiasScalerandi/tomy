@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestService.OrderByDominio" project="tomy" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.test.tomy.service.TestService" time="1.562" displayname="TestService" uniqueid="[engine:junit-jupiter]/[class:com.test.tomy.service.TestService]">
+    <testcase name="OrderByDominio" classname="com.test.tomy.service.TestService" time="1.562" displayname="OrderByDominio()" uniqueid="[engine:junit-jupiter]/[class:com.test.tomy.service.TestService]/[method:OrderByDominio()]"/>
+  </testsuite>
+</testrun>

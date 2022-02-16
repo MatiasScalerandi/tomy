@@ -1,0 +1,5 @@
+package com.test.tomy.constant;
+
+public class ErrorConstants {
+
+}

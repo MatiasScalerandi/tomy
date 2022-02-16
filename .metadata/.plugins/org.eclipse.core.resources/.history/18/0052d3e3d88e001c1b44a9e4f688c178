@@ -1,0 +1,15 @@
+package com.test.tomy.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.test.tomy.dto.AutoDTO;
+import com.test.tomy.model.Auto;
+
+public interface AutoService {
+
+	public List<AutoDTO> obtenerAutos();
+	public Optional<AutoDTO> guardarAuto(Auto auto);
+	public void borrarAuto(Long id);
+	public List<AutoDTO> ordenamiento(int ordenar);
+}

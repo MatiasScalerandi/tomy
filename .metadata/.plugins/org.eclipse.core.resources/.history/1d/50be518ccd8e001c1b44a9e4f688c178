@@ -1,0 +1,9 @@
+package com.test.tomy.dto;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class AutoDTO {
+
+}

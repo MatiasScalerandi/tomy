@@ -1,0 +1,28 @@
+package com.test.tomy.model;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import com.test.tomy.dto.AutoDTO;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Entity
+@Table(name = "inspeccion")
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class Inspeccion {
+	private Long nroDeInspeccion;
+	private Date fechaDeInspeccion;
+	private String estadoDeInspeccion;
+	private boolean exento;
+	private String inspectorResponsable;
+	private tring automovilInspeccionado;
+}

@@ -1,0 +1,5 @@
+package com.test.tomy.exception;
+
+public class AutoException {
+
+}

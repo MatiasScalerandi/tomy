@@ -1,0 +1,5 @@
+package com.test.tomy.dto;
+
+public class AutoDTO {
+
+}

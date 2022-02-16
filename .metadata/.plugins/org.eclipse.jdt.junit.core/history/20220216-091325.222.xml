@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestService" project="tomy" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.test.tomy.service.TestService" time="1.597" displayname="TestService" uniqueid="[engine:junit-jupiter]/[class:com.test.tomy.service.TestService]">
+    <testcase name="OrderByModeloOK" classname="com.test.tomy.service.TestService" time="1.579" displayname="OrderByModeloOK()" uniqueid="[engine:junit-jupiter]/[class:com.test.tomy.service.TestService]/[method:OrderByModeloOK()]"/>
+    <testcase name="OrderByDominioOK" classname="com.test.tomy.service.TestService" time="0.005" displayname="OrderByDominioOK()" uniqueid="[engine:junit-jupiter]/[class:com.test.tomy.service.TestService]/[method:OrderByDominioOK()]"/>
+    <testcase name="OrderByMarcaOK" classname="com.test.tomy.service.TestService" time="0.005" displayname="OrderByMarcaOK()" uniqueid="[engine:junit-jupiter]/[class:com.test.tomy.service.TestService]/[method:OrderByMarcaOK()]"/>
+    <testcase name="OrderByDominioListaVacia" classname="com.test.tomy.service.TestService" time="0.008" displayname="OrderByDominioListaVacia()" uniqueid="[engine:junit-jupiter]/[class:com.test.tomy.service.TestService]/[method:OrderByDominioListaVacia()]"/>
+  </testsuite>
+</testrun>
